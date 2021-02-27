@@ -18,8 +18,6 @@ public class CelestialBody : MonoBehaviour
 
     void FixedUpdate()
     {
-        
-
         CelestialBody[] attractors = FindObjectsOfType<CelestialBody>();
         foreach (CelestialBody attractor in attractors)
         {
